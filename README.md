@@ -4,9 +4,9 @@
 
 In here you will discover key web-two technologies and concepts to build web applications.
 
-[**Learn Web-two Concepts Here →**](https://web-two-journey.vercel.app/)
+[**Learn Web-two and some Web-3 Concepts Here →**]((https://web3-journey.vercel.app/))
 
-![image](https://github.com/lemuelsolomon/web-two-journey/assets/37772999/d55b9a41-6033-47f8-abd1-417132bf25d0)
+![image](https://github.com/user-attachments/assets/4355cd21-114b-4b9e-a392-6117c3667737)
 
 
 ## Web Two
