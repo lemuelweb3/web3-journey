@@ -9,11 +9,12 @@ In here you will discover key web-two technologies and concepts to build web app
 ![image](https://github.com/user-attachments/assets/4355cd21-114b-4b9e-a392-6117c3667737)
 
 
-## Web Two
+## Web Two & Web Three
 
 Modern applications, web applications, mobile applications and websites built using programming technologies and web development frameworks
 compromise of what we today know as web two. Technologies like javascript (even typecript) and react are amongst the most popular tools
-to build modern applications.
+to build modern applications. These same technologies are also utilized to build decentralised applications attributed by smart-contract based
+business logic.
 
 ## Local Development
 
