@@ -6,17 +6,10 @@
     "title": "About",
     "type": "page"
   },
-  "twitter": {
-    "title": "Twitter ↗",
-    "type": "page",
-    "href": "https://x.com/solomonwebthree",
-    "newWindow": true
-  }
-  ,
   "linkedin": {
     "title": "Linkedin ↗",
     "type": "page",
-    "href": "https://www.linkedin.com/in/callmesolomon/",
+    "href": "https://www.linkedin.com/in/lemuelwebthree/",
     "newWindow": true
   }
 }
