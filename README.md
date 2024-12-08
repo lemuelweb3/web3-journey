@@ -1,4 +1,4 @@
-# Web-two-journey
+# Web3-journey
 
 ## Sharing My Web-two Learning Journey With The World Through Proactive Development
 
