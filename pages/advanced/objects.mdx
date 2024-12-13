@@ -1,9 +1,15 @@
-# Adavanced Javascript
+# Advanced Javascript
 
 ## Different Types Of Javascript Functions
 
+Objects are used to create "custom data types" in your code. The use-case could be to create
+a User object for an onchain dapp and then have related key-value pairs within this User object to create
+a profile or DID that is applicable to a wallet user; Full names (key) and the respective names of the 
+wallet address holder/owner actual full names (value).
+Wallet Address (another key), and the actual alpha-numeric value of the user's address.
+
 ```js filename="functions.js" {3} copy
-// ======================================================
+// -------- 
  
  
 console.log('Here Is A Simple Function');
@@ -14,7 +20,7 @@ function greetOne() {
 greetOne() // Output: Hello!
 console.log('')
  
-// ======================================================
+// -------- 
  
  
 console.log('Simple function with arguments')
@@ -25,7 +31,7 @@ function greetTwo(name) {
 greetTwo()
 console.log('')
  
-// ======================================================
+// -------- 
  
 console.log('Fuction with return values')
 function square(x) {
@@ -35,7 +41,7 @@ let result = square(7) // result is now equal to 49
 console.log('square: result: ', result)
 console.log('')
  
-// ======================================================
+// -------- 
  
 console.log('Function with multiple arguments and return values')
 function sumAndProduct(num1, num2) {
@@ -48,7 +54,8 @@ console.log('sumAndProduct: sum: ', sum) // Output: 9
 console.log('sumAndProduct: product: ', product) // Output 20
 console.log('')
  
-// ======================================================
+// // -------- 
+
  
 
 
