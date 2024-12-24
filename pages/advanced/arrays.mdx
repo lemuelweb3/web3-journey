@@ -2,7 +2,7 @@
 
 ## Arrays in Javascript
 
-Arrays are containers to store multiple forms data types. Though js is not "strict" about 
+Arrays are containers to store multiple forms of data types. Though js is not "strict" about 
 the type-uniformity, essentially it's sound practice to use it to store related data 
 elements like color.
 
@@ -31,6 +31,8 @@ console.log('')
 // --------
  
 console.log('Removing items from the array')
+// pop removes the last element from the latest colors array but the removed element
+// can actually be assigned to a seprate variable
 let removedColor = colors.pop()
 console.log('colors: ', colors) // Output ["red","green","blue"]
 console.log('removedColor:  ', removedColor); //Output: "purple"

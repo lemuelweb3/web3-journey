@@ -4,54 +4,35 @@
 
 ```js filename="functions.js" {3} copy
 // -------- 
- 
- 
-console.log('Here Is A Simple Function');
-function greetOne() {
-  console.log('sayHello: Hello!')
-}
- 
-greetOne() // Output: Hello!
-console.log('')
- 
-// -------- 
- 
- 
-console.log('Simple function with arguments')
-function greetTwo(name) {
-  console.log('sayHello: Hello ' + name + '!')
-}
- 
-greetTwo()
-console.log('')
- 
-// -------- 
- 
-console.log('Fuction with return values')
-function square(x) {
-  return x * x
-}
-let result = square(7) // result is now equal to 49
-console.log('square: result: ', result)
-console.log('')
- 
-// -------- 
- 
-console.log('Function with multiple arguments and return values')
-function sumAndProduct(num1, num2) {
-  return [num1 + num2, num1 * num2]
-}
- 
-// array destructuring
-let [sum, product] = sumAndProduct(4, 5)
-console.log('sumAndProduct: sum: ', sum) // Output: 9
-console.log('sumAndProduct: product: ', product) // Output 20
-console.log('')
- 
-// -------- 
- 
 
+console.log("For loop with a break")
+ for (let i=0; i < 11; i++) {
+  if (i === 6) {
+    break // Exit the loop when i is equal to 6
+  }
+  console.log(i) // output is 0, 1, 2, 3, 4, 5
+ }
 
+// -------- 
+ 
+console.log("For loop with continue")
+ for (let i=0; i < 11; i++) {
+  if (i % 2 == 0) {
+    continue // skip if i is an even number (divisible by 2)
+  }
+  console.log(i) // output is 1, 3, 5, 7, 9
+ }
+
+// -------- 
+
+console.log("return statement in javascript")
+ function cube(x) {
+  return x*x*x
+ }
+
+let result = cube(4) // result is equal to 64
+console.log("cube: result: ", result)
+console.log("")
 
 ```
 
